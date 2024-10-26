@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e7eff0;
+}
+
+.text {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e7eff0;
+    border-radius: 8px;
+}
+
+
+.prt1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.prt1 h3 {
+    margin-top: 0;
+    font-size: 12px;
+    margin: 4px;
+
+}
+
+.prt1 .mny1,
+.mny2,
+.mny3 {
+    background: white;
+    border-radius: 12px;
+    text-align: center;
+    width: 94px;
+}
+
+.mny1 h5 {
+    color: green;
+
+}
+
+.mny3 h5 {
+    color: red;
+}
+
+.mny2 h5 {
+    color: #333;
+}
+
+.prt2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 42px;
+    left: 20%;
+    width: 58%;
+    gap: 18px;
+
+}
+
+.prt2 input {
+    width: 40%;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 70px;
+}
+
+#Amount {
+    width: 10%;
+}
+
+#Description {
+    width: 54%;
+}
+
+
+.prt2 button {
+    width: 20%;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 70px;
+
+}
+
+#Addincome {
+    background-color: rgb(131, 183, 80);
+}
+
+#AddExpende {
+    background-color: rgb(220, 71, 71);
+}
+
+.inc {
+    color: green;
+}
+
+.ic-2 {
+    color: red;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.inc1 {
+    color: rgb(69, 163, 69);
+    text-align: center;
+}
+
+.inc2 {
+    color: rgb(214, 46, 46);
+    text-align: center;
+}
+
+.Income-1 {
+    padding-bottom: 350px;
+}
+
+.Income-1 .Pay {
+    margin-bottom: 10px;
+}
+
+.Expense .Pay {
+    margin-bottom: 10px;
+}
+
+.sold {
+    background: #ffffff;
+    width: 300px;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 36px;
+}
+
+.Pay-1,.Pay-2,.Pay-3,.Pay-4 {
+    background: #ffffff;
+    width: 300px;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    height: 36px;
+}
+
+.Pay {
+    background-color: #ffffff;
+    width: 300px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.Pay i {
+    color: rgb(5, 5, 5);
+}
+
+.Pay:hover i {
+    color: rgb(229, 23, 23);
+    visibility: visible;
+    opacity: 1;
+
+}
+
+span {
+    position: relative;
+    left: 0.1px;
+}
